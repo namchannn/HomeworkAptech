@@ -29,5 +29,11 @@ int main(){
 		}
 	}
 	printf("display %d time.\n\n", count2);
+	int sum = 0;
+	for(i = 0; i < 10; i++){
+		sum += arr[i];
+	}
+	printf("Sum of all elements in array is: %d\n\n", sum);
+	printf("Average of all elements in array is: %0.2f\n", (float)sum / 10);
 	return 0;
 }
