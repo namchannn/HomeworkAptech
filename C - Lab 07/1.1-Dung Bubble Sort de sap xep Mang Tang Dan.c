@@ -31,4 +31,5 @@ void main(){
 		printf("%d ", arr[i]);
 	}
 	
+	getch();
 }
