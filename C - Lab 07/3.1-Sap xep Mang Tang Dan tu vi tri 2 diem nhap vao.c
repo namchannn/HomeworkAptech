@@ -30,17 +30,32 @@ int main(){
 		return 0;
 	}
 	
-	// Bubble sort
-	for(int i = 0; i < n; i++){
-		for(int j = 0; j < n - i - 1; j++){
-			if(arr[j] > arr[j + 1]){
-				int temp = arr[j];
-				arr[j] = arr[j + 1];
-				arr[j + 1] = temp;
-			}
-			
+//	// Bubble sort
+//	for(int i = 0; i < n; i++){
+//		for(int j = 0; j < n - i - 1; j++){
+//			if(arr[j] > arr[j + 1]){
+//				int temp = arr[j];
+//				arr[j] = arr[j + 1];
+//				arr[j + 1] = temp;
+//			}
+//			
+//		}
+//	}
+	
+	/*OR*/
+	
+	// Insertion sort
+	for(int j = 0; j < n; j++){
+		int i = j - 1;
+		int temp = arr[j];
+		while((i >= 0) && (temp < arr[i])){
+			arr[i + 1] = arr[i];
+			i--;
 		}
+		arr[i + 1] = temp;
 	}
+	
+	// Print result
 	printf("Sorted Array: \n");
 	for(int i = j - 1; i < k; i++){
 		printf("%d ", arr[i]);
