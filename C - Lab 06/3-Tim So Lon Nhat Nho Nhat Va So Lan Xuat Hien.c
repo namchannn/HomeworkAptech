@@ -1,5 +1,8 @@
 #include <stdio.h>
+
 int main(){
+	
+	// Declaration
 	int arr[10] = {12,8,23,8,25,8,90,21,11,90}, i;
 	printf("arr[10] = {12,8,23,8,25,8,90,21,11,90}.\n\n");
 	int maxValue = arr[0];
@@ -8,6 +11,8 @@ int main(){
 		if(arr[i] > maxValue);
 		maxValue = arr[i];
 	}
+	
+	// Display
 	printf("Element largest is %d,", maxValue);
 	int count1 = 0;
 	for(i = 0; i < 10; i++){
