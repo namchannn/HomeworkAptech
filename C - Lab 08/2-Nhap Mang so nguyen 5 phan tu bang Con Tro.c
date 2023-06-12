@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int main(){
+	
 	// Declaration
 	int arr[5];
 	int *ptr;
