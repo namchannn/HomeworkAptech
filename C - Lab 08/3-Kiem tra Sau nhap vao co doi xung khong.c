@@ -18,7 +18,7 @@ bool checkDoiXung(char *str){
 
 int main(){
 	// Declaration
-	char str[80];
+	char str[81];
 	int low = 0;
 	int high = strlen(str) - 1;
 	
