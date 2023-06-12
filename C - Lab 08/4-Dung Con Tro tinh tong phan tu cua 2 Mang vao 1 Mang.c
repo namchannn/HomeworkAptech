@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Creat function tinhTong
 void tinhTong(int *a, int *b, int *c, int n){
 	for(int i = 0; i < n; i++){
 		c[i] = a[i] + b[i];
 	}
 }
 
+// Creat function inMang
 void inMang(int *mang, int n){
 	for(int i = 0; i < n; i++){
 		printf("%d ", mang[i]);
@@ -15,12 +17,14 @@ void inMang(int *mang, int n){
 }
 
 int main(){
+	
 	// Declaration
 	int a[5], b[5], c[5];
 	int *ptr1, *ptr2, *ptr3;
 	ptr1 = (int*)malloc(5*sizeof(int));
 	ptr2 = (int*)malloc(5*sizeof(int));
 	ptr3 = (int*)malloc(5*sizeof(int));
+	
 	// Input elements
 	printf("Enter elements for A: ");
 	for(int i = 0; i < 5; i++){
