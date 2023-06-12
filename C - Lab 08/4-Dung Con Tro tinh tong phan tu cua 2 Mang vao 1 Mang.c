@@ -30,6 +30,8 @@ int main(){
 	for(int i = 0; i < 5; i++){
 		scanf("%d", &b[i]);
 	}
+	
+	// Display
 	for(int i = 0; i < 5; i++){	//tinhTong(a, b, c, 5);
 		c[i] = a[i] + b[i];
 	}
