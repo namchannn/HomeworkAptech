@@ -2,6 +2,7 @@
 #include <conio.h>
 
 void main(){
+	
 	// Declaration
 	int arr[100];
 	int n, i, j;
@@ -30,6 +31,5 @@ void main(){
 	for(i = 0; i < n; i++){
 		printf("%d ", arr[i]);
 	}
-	
 	getch();
 }
