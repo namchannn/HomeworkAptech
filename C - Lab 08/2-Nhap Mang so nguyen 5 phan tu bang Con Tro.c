@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int main(){
 	// Declaration
 	int arr[5];
