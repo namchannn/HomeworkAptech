@@ -8,6 +8,7 @@ void swap1(int *a, int *b){
 }
 
 int main(){
+	
 	// Declaration
 	int a = 5;
 	int b = 10;
