@@ -2,6 +2,7 @@
 #include <conio.h>
 
 void main(){
+	
 	// Declaration
 	int arr[100];
 	int n = 0;
