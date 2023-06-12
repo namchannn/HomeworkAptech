@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+
 // Check prime
 bool prime(int num){
 	if(num <= 1){
@@ -15,10 +16,14 @@ bool prime(int num){
 }
 
 int main(){
+	
+	// Declaration
 	int arr[5], i;
 	printf("Enter 5 prime to array:\n");
 	for(i = 0; i < 5; i++){
 		while(true){
+			
+			//Input
 			printf("Enter element %d: ", i + 1);
 			scanf("%d", &arr[i]);
 			if(prime(arr[i])){
@@ -28,10 +33,13 @@ int main(){
 			}
 		}
 	}
+	
+	// Display entered array
 	printf("\nArray entered:\n\n");
 	for(i = 0; i < 5; i++){
 		printf("%d ", arr[i]);
 	}
+	
 	// Find largest, smallest
 	int maxValue = arr[0];
 	int minValue = arr[0];
@@ -43,6 +51,8 @@ int main(){
 			minValue = arr[i];
 		}
 	}
+	
+	// Display max, min
 	printf("\n\nElement largest is %d.\n", maxValue);
 	printf("Element smallest is %d.\n", minValue);
 	return 0;
