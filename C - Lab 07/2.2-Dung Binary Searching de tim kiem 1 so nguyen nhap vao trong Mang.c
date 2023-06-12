@@ -2,10 +2,12 @@
 #include <conio.h>
 
 void main(){
+	
 	// Declaration
 	int arr[100];
 	int n = 0;
 	int x;
+	
 	// Input elements
 	while(1){
 		printf("Enter element number %d: ", n + 1);
