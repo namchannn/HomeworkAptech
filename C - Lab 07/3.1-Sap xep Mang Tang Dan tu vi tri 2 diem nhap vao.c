@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+
 int main(){
+	
 	// Declaration
 	int arr[100];
 	int n;
