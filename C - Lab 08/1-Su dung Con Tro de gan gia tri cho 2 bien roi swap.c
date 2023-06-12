@@ -10,10 +10,12 @@ void swap1(int *a, int *b){
 int main(){
 	// Declaration
 	int a = 5;
+	int b = 10;
+	
+	// Display
 	printf("Stock");
 	printf("\nGia tri cua a: %d", a);
 	printf("\nDia chi cua a: %d", &a);
-	int b = 10;
 	printf("\nGia tri cua b: %d", b);
 	printf("\nDia chi cua b: %d", &b);
 	
