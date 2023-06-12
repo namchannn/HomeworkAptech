@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 int main(){
+	
 	// Declaration
 	int arr1[5] = {0,3,6,9,1};
 	int arr2[6] = {1,0,2,6,4,5};
