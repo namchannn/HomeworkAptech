@@ -1,17 +1,20 @@
 #include <stdio.h>
+
 int main(){
+	
+	// Declartion
 	char subjects[6][100];
 	float scores[5][6];
 	float average[5] = {0};
 	
-	// Nhập tên 6 môn học
+	// Enter 6 name subject
 	printf("Nhap ten 6 mon hoc:\n");
 	for(int i = 0; i < 6; i++){
 		printf("Mon hoc %d: ", i + 1);
 		gets(subjects[i]);
 	}
 	
-	// Nhập điểm 5 sinh viên và tính điểm TB
+	// Enter scores for 5 students and calculate average
 	for(int i = 0; i < 5; i++){
 		printf("\nNhap diem cho sinh vien %d:\n", i + 1);
 		for(int j = 0; j < 6; j++){
@@ -22,7 +25,7 @@ int main(){
 		average[i] /= 6;
 	}
 	
-	// Hiển thị kết quả ra màn hình
+	// Display result
 	printf("\nBang luu tru diem:\n");
 	printf("\n---------------------------------------------------------------------------------------------------------------------------------\n");
 	printf("|	Hoc vien|");
