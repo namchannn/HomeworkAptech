@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void menu(){
-	printf("	TINH TOAN	\n========================\n	2. Tinh tong\n	3. Tinh hieu\n	4. Tinh tich\n	5. Tinh thuong\n	6. Thoat\n========================\n");
+	printf("	TINH TOAN	\n================================\n	2. Tinh tong\n	3. Tinh hieu\n	4. Tinh tich\n	5. Tinh thuong\n	6. Thoat\n================================\n");
 }
 
 int sum(int a, int b){
