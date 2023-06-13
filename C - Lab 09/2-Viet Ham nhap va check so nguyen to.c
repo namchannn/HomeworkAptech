@@ -20,7 +20,7 @@ void checkNumber(int num){
             }
         }
     }
-    if(flag) {
+    if(flag){
         printf("So %d la so nguyen to.\n", num);
     }else{
         printf("So %d khong phai so nguyen to.\n", num);
@@ -29,14 +29,13 @@ void checkNumber(int num){
 
 int main(){
 	char choice;
+	
 	do{
 		int num = inputNumber(num);
 		checkNumber(num);
-		
 		printf("Ban co muon tiep tuc khong? (y/n): ");
 		fflush(stdin);
 		scanf("%c", &choice);
 	}while(choice == 'y' || choice == 'Y');
-	
 	return 0;
 }
