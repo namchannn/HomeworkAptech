@@ -95,7 +95,7 @@ int main(){
 				printf("End programing!!!\n");
 				break;
 			default:
-				printf("Enter not invalid!!!");
+				printf("Enter not invalid!!!\n");
 				break;
 				
 		}
