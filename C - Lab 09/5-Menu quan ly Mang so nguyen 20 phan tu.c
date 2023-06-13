@@ -39,7 +39,7 @@ void findValue(int ary[20], int val){
 	for(int i = 0; i < 20; i++){
 		if(ary[i] == val){
 			ary[i] = val;
-			printf("Found at index %d.", ary[i], i + 1);
+			printf("Found at index %d.", i + 1);
 			found = 1;
 		}
 	}
