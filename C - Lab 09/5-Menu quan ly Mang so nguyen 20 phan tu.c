@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
-void init(int ary[20]){
+int init(int ary[20]){
 	srand(time(NULL));
 	for(int i = 0; i < 20; i++){
 		ary[i] = rand();
 	}
 }
 
-void display(int ary[20]){
+int display(int ary[20]){
 	for(int i = 0; i < 20; i++){
 		printf("%d ", ary[i]);
 	}
@@ -33,7 +33,7 @@ int getAvg(int ary[20]){
 	return sum / 20;
 }
 
-void findValue(int ary[20], int val){
+int findValue(int ary[20], int val){
 	printf("Element same value of %d: ", val);
 	int found = 0;
 	for(int i = 0; i < 20; i++){
@@ -83,7 +83,7 @@ int main(){
 				printf("Largest element: %d.\n", max);
 				break;
 			case 4:
-				printf("nAverage element: %d.\n", avg);
+				printf("Average element: %d.\n", avg);
 				break;
 			case 5:
 				printf("Enter searching value: ");
