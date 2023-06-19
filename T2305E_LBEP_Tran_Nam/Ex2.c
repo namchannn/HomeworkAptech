@@ -16,6 +16,7 @@ int main(){
 	int a[] = {1,2,4,5,10,100,2,-22};
 	int n = sizeof(a) / sizeof(a[0]);
 	int minIndex = smallest_index(a, n);
+	
 	printf("\nThe smallest element of the array found at index: %d\n", minIndex);
 	return 0;
 }
