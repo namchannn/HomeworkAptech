@@ -11,7 +11,7 @@ int main(){
 	printf("Display in the reversed order\n");
 	
 	for(int i = 0; i < 10; i++){
-		printf("%d\n", i + 1, a[9 - i]);
+		printf("%d\n", a[9 - i]);
 	}
 	
 	return 0;
